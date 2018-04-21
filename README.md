@@ -40,12 +40,12 @@ You should see the following output:
 [warn] Merging 'META-INF/MANIFEST.MF' with strategy 'discard'
 [warn] Strategy 'discard' was applied to a file
 [info] SHA-1: b8098009dc6ad381e43c481d0fb23ebc68e66cda
-[info] Packaging /path/to/project/hello-world-scala-graalvm/target/scala-2.12/hello-world-scala-graalvm-assembly-0.1.jar ...
+[info] Packaging /path/to/project/hello-world-scala-graalvm/target/scala-2.12/hello-world.jar ...
 [info] Done packaging.
 [success] Total time: 6 s, completed Apr 21, 2018 9:26:49 PM
 ```
 
-We then simply use `native-image` binary from the GraalVM to create our native image `native-image -jar hello-world-scala-graalvm-assembly-0.1.jar`
+We then simply use `native-image` binary from the GraalVM to create our native image `native-image -jar target/scala-2.12/hello-world.jar`
 
 You should see the following output:
 
@@ -70,7 +70,7 @@ Build on Server(pid: 45153, port: 26681)
 
 ## Executing the native image
 
-A simple `./hello-world-scala-graalvm-assembly-0.1` will do the job :smile:
+A simple `./hello-world` will do the job :smile:
 
 Check the time it takes for the program to execute!
-`time ./hello-world-scala-graalvm-assembly-0.1`
+`time ./hello-world`
