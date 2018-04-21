@@ -1,4 +1,4 @@
-name := "hello_world_native_graalvm"
+name := "hello-world-scala-graalvm"
 
 version := "0.1"
 
