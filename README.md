@@ -1,4 +1,4 @@
-# Hello World native-image GraalVM example in Scala
+# Hello World in Scala using GraalVM native-image 
 
 ## Install GraalVM
 1. Three possibilities here:
