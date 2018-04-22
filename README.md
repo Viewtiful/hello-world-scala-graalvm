@@ -1,7 +1,7 @@
 # Hello World native-image GraalVM example in Scala
 
 ## Install GraalVM
-1. Two possibilities here:
+1. Three possibilities here:
 
    * Install GraalVM Enterprise Edition for your operating system by downloading a pre-built version: http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html
    * Install GraalVM Community Edition from the official Github repository: https://github.com/oracle/graal/releases (only a Linux version is for the moment available)
